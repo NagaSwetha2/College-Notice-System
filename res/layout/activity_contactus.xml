@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contactus" >
+
+     <com.google.android.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/relativeLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:apiKey="0K8ZXPWuaaLwS3qWZvk07SpRGm6Dw17mG6HswLA"
+        android:clickable="true" >
+    </com.google.android.maps.MapView>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ccc"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="100dp"
+            android:text="Address: Plot No 36,Electronic Complex Extension,ECIL X Road, NFC Rd, Secunderabad, Telangana 500062"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#990012" />
+
+    </RelativeLayout>
+
+   
+
+</RelativeLayout>

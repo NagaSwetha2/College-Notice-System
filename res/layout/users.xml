@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+   
+    android:orientation="horizontal"
+    android:padding="5dip"
+     >
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@+id/radioButton1"
+              android:layout_centerHorizontal="true"
+              android:text="Reg id"
+              android:visibility="gone"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <CheckBox
+              android:id="@+id/checkBox1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true" 
+             android:focusable="false"/>
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:text="Mail id"
+              android:visibility="gone"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignTop="@+id/checkBox1"
+              android:text="Name"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:textSize="15dp"
+              android:textStyle="bold" />
+
+</RelativeLayout>  
